@@ -1,0 +1,267 @@
+#body{
+    font-family: 'cabin condensed,sans-serif';
+}
+
+.body{
+    position: fixed;
+   
+}
+
+.top-bar {
+    height: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f78e1e;
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+.name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    height: 35px;
+    width: 40%;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.social{
+    height: 30px;
+    width: 100;
+    margin-top: 0px;
+    margin-left: 150px;
+    color: #ffffff;
+    top: 4;
+    left: 15;
+    position: fixed;
+}
+
+.menu-header-div{
+    margin-top: -33px;
+    margin-left: 953px; 
+    position: fixed;
+    display:flex; 
+}
+
+.menu-header{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    color: white;
+    background-color: #ffffff;
+} 
+
+
+#menu{
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    display: inline;
+    font-size: 13px;
+    padding-right: 22px;
+}
+
+.citrus{
+    height: 70px;
+    width: 100%;
+    margin-top: 27px;
+    margin-left: -8;
+    /*background-color: #000000;*/
+    position: fixed;
+}
+
+.logo{
+    height: 50px;
+    width: 10;
+    margin-top: 8px;
+    margin-left: 10;
+}
+
+.navigation{
+    margin-top: -50px;
+    margin-left: 830px; 
+    position: fixed;
+    display:flex; 
+    /*background-color: #a41e1e;*//*make white*/
+    text-transform: uppercase;
+   
+}
+
+#navi{
+    padding-right: 35px;
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    position: fixed;
+}
+
+.body-img{
+    width: 100%;
+    height: 450px;
+    margin-top: 87px;
+    margin-left: -8;
+    position: relative;
+    background-size: 100%;
+    background-position-y:-40px;
+}
+
+
+.vid{
+    margin-top: 700px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.img4{
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: -8;
+    background-image: url("Waskaduwa2.jpg");
+}
+
+
+.citrus-hotels{
+    margin-top: -7px;
+    height: 80;
+    width: 100%;
+    position: fixed;
+    display:flex; 
+    background-color: #ffffff;
+}
+
+#hotels{
+    margin-left: 110;
+    height: 10px;
+    width: 50%;
+    list-style: none;
+    display: inline;
+}
+
+.hotels-button{
+    margin-top: 3px;
+}
+
+.container{
+    width: 400%;
+    position: absolute;
+    margin-top: 82px;
+    display: flex;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{ 
+    25%{
+        transform: translateX(-0%);
+    }
+    50%{
+        transform: translateX(-25%);
+    }
+    75%{
+        transform: translateX(-50%);
+    }
+   100%{
+    transform: translate(-75%);
+   }
+}
+
+
+#img10{
+    margin-top: 25px;
+    background-image: url("Waskaduwa2.jpg");
+    width: 1565px;
+    height: 600px;
+    margin-left: -10;
+    margin-right: -8;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img11{
+    margin-top: 25px;
+    background-image: url("citrus1.jpg");
+    width: 1565px;
+    height: 600px;
+    margin-left: -8;
+    margin-right: -8;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img12{
+    margin-top: 25px;
+    background-image: url("Was1.jpg");
+    width: 1565px;
+    height: 600px;
+    margin-left: -8;
+    margin-right: -8;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img13{
+    margin-top: 25px;
+    background-image: url("hik.jpg");
+    width: 1565px;
+    height: 600px;
+    margin-left: -8;
+    margin-right: -8;
+    background-position-y: center; 
+    background-position-x: center;
+}
+.footer{
+    background-color: #f78e1e;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+/*media queries for 1700*/
+
+@media screen and (max-width:1700px) {
+    *{
+        zoom: 100%;
+    }
+    .footer-ad{
+        width: 100%;
+    }
+    .adventures{
+        width: 100%;
+        
+    }
+    div #list-content{
+        width: 100%;
+        display: grid;
+    }
+    .footer-home{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto;
+    }
+    .footer-newsletter{
+        grid-area: 1/1/2/3;
+    }
+    .footer-citrus-hotels{
+        grid-area: 1/3/2/4;
+    }
+    .leisure{
+        grid-area: 1/4/2/5;
+    }
+    .contact{
+        grid-area: 1/5/2/6;
+    }
+    .rest{
+        width: 100%; 
+        margin-left: 0%;
+        height: auto;
+    }
+    .navi-footer{
+        padding: 0%;
+    }
+    
+}

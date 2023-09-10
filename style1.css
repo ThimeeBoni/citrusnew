@@ -1,0 +1,463 @@
+#body{
+    font-family: 'cabin condensed,sans-serif';
+    overflow: hidden;
+    display: flex; 
+}
+
+.body{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+.top-bar {
+    height: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f78e1e;
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+.name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    height: 35px;
+    width: 40%;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #ffffff;
+   
+}
+.social{
+    height: 30px;
+    width: 100;
+    margin-top: 0px;
+    margin-left: 150px;
+    color: #ffffff;
+    top: 4;
+    left: 15;
+    position: fixed;
+}
+
+.menu-header-div{
+    margin-top: -33px;
+    margin-left: 953px; 
+    position: fixed;
+    display:flex; 
+}
+
+.menu-header{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    color: white;
+    background-color: #671a1a;
+    display: flex;
+} 
+
+#menu{
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    display: inline;
+    font-size: 13px;
+    padding-right: 22px;
+}
+.citrus{
+    height: 70px;
+    width: 100%;
+    margin-top: 27px;
+    margin-left: -8;   /**/
+    /*background-color: #000000;*/
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.logo{
+    height: 50px;
+    width: 10;
+    margin-top: 8px;
+    margin-left: 10;
+}
+
+.navigation{
+    margin-top: -50px;
+    margin-left: 830px; 
+    position: relative;
+    display:flex; 
+    /*background-color: #a41e1e;*//*make white*/
+    text-transform: uppercase;
+   
+}
+
+#navi{
+    padding-right: 35px;
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
+/*.body-img{
+    width: 100%;
+    height: 450px;
+    margin-top: 87px;
+    margin-left: -8;
+    position: relative;
+    background-size: 100%;
+    background-position-y:-40px;
+}*/
+
+.img1{
+    height: 600;
+    width: 1650;
+    margin-top: 100px;
+    margin-left: -8;
+    background-image: url("citrushomenew1.jpg");  
+    background-position-y:-130px;
+   
+}
+
+.img2{
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: -8;
+    background-image: url("citrus1.jpg");
+    background-size: 100%;
+    background-position-y:-90px;
+}
+
+.vid{
+    margin-top: 900px;
+}
+
+.citrus-hotels-home{
+    margin-top: -7px;
+    height: 80;
+    width: 100%;
+    position: fixed;
+    display:flex; 
+   background-color: #ffffff;
+}
+
+.citrus-hotels{
+    margin-top: -65px;
+    margin-left: -8;
+    height: 80;
+    width: 100%;
+    position: fixed;
+    display:flex; 
+    background-color: #ffffff;
+}
+
+#hotels{
+    margin-left: 100;
+    height: 10px;
+    width: 10%;
+    list-style: none;
+    display: inline;
+}
+
+.hotels-button{
+    margin-top: 2px;
+}
+
+#buttons-hotels{
+    background-color: #ffffff;
+   
+}
+
+#buttons-hotels:hover{
+    background-color: #f78e1e; 
+    float: fixed;
+}
+
+/*.img3{
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: -8;
+    background-image: url("Waskaduwa2.jpg");
+}
+
+.img4{
+    height: 400px;
+    width: 100%;
+    margin-left: -8;
+    margin-top: 200px;
+    background-image: url("citrus1.jpg");  
+}
+*/
+
+.container-main{
+    width: 410%;
+    margin-left: 4px;
+    margin-right: 5px;
+    position: absolute;
+    margin-top: 62px;
+    display: flex;
+    animation: main-slide 10s infinite;
+}
+
+@keyframes main-slide{ 
+    25%{
+        transform: translateX(-0%);
+    }
+    50%{
+        transform: translateX(-25%);
+    }
+    75%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(-75%);
+    }
+}
+
+
+#img10{
+    margin-top: 25px;
+    background-image: url("citrus.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img11{
+    margin-top: 25px;
+    background-image: url("citrus1.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img12{
+    margin-top: 25px;
+    background-image: url("was1.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img13{
+    margin-top: 25px;
+    background-image: url("hik.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+.container-main:hover{
+    animation-play-state: paused; /**/
+}
+
+.container-home{
+    width: 600%;
+    margin-left: 4px;
+    margin-right: 5px;
+    position: absolute;
+    margin-top: 82px;
+    display: flex;
+    animation: home-slide 10s infinite;
+}
+
+@keyframes home-slide{ 
+    20%{
+        transform: translateX(-0%);
+    }
+    40%{
+        transform: translateX(-20%);
+    }
+    60%{
+        transform: translateX(-40%);
+    }
+    80%{
+        transform: translateX(-60%);
+    }
+    100%{
+        transform: translateX(-80%);
+    }
+}
+
+#img20{
+    margin-top: 25px;
+    background-image: url("was.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img21{
+    margin-top: 25px;
+    background-image: url("hik1.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img22{
+    margin-top: 25px;
+    background-image: url("stu.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img23{
+    margin-top: 25px;
+    background-image: url("vilGC.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img24{
+    margin-top: 25px;
+    background-image: url("villabu11.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+.container-home:hover{
+    animation-play-state: paused; /**/
+}
+
+#content-home{
+    width: 1300px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 100px;
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 23px;
+    
+}
+
+
+
+
+.footer {
+    position: absolute;
+    background-color: #ffecda;
+    padding: 25px 0;
+    width: 100%;
+    height: 250px;
+    margin-top: 80%;
+    margin-left: -6;
+    font-size: 12px;
+}
+
+#list-content{
+    background-color: aqua;
+    position: absolute;
+    width: 1150px;
+    height: 50px;
+    margin-left: 150px;
+}
+
+.navi-footer{
+    list-style: none;
+    display: flex;
+    padding-right: 105px;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+#navi-footer{
+    padding-right: 210px;
+}
+
+.email{
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    margin-top: 56px;
+    margin-left: -100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+#type-email{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: -110;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6f6656;
+    text-align: center;
+    border: none;
+}
+
+#type-email:hover{
+    background-color: #e2e2e2;
+    text-transform: lowercase;
+    border: none;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#signup{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 292px;
+    width: 90px;
+    height: 50px;
+    background-color: #f78e1e;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+#signup:hover{
+    background-color: #e78215;
+}
+
+
+
+
+
+
