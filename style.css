@@ -2139,4 +2139,38 @@
     
 }
 
+@media(width<1000px){
+    .citrus{
+        zoom: 50%;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .top-bar{
+        zoom: 50%;
+    }
+
+    .menu-header-div{
+        margin-left: 700px;
+    }
+
+    .footer-main{
+        margin-top: 500%;
+        zoom: 50%;
+    }
+
+    .citrus-hotels-home{
+        zoom: 120%;
+        margin-left: -50px;
+    }
+
+    .bar{
+        zoom: 50%;
+    }
+
+    .container-home{
+        visibility: hidden;
+    }
+}
+
 
