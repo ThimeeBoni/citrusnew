@@ -1950,28 +1950,6 @@
     }
 }
 
-@media (max-width:812px) {
-    .adventures{
-        width: 550%;
-        margin-right: -20px;
-    }
-}
-
-@media (max-width:512px) {
-    .adventures{
-        width: 550%;
-    }
-    .footer-home{
-        zoom: 80%;
-        width: 170%;
-    }
-
-    .rest{
-        overflow-x: visible;
-    }
-}
-
-
 
 @media(width < 1440px){
 
