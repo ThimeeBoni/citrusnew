@@ -1,5 +1,4 @@
 
-
 *{
     zoom: 104%;
 }
@@ -14,6 +13,8 @@
     width: 100%;
     height: 100%;
 }
+
+/*headers*/
 
 .top-bar {
     height: 35px;
@@ -146,6 +147,8 @@
     background-position-y:-40px;
 }*/
 
+/*citrus home page*/
+
 .img1{
     height: 600;
     width: 100%;
@@ -230,22 +233,8 @@
     float: fixed;
 }
 
-/*.img3{
-    width: 100%;
-    height: 450px;
-    margin-top: 100px;
-    margin-left: -8;
-    background-image: url("Waskaduwa2.jpg");
-}
-
-.img4{
-    height: 400px;
-    width: 100%;
-    margin-left: -8;
-    margin-top: 200px;
-    background-image: url("citrus1.jpg");  
-}
-*/
+/*citrus main page, citrus home page, waskaduwa page, hikkaduwa page, steuarts page*/
+/*image animations*/
 
 .container-main{
     width: 510%;
@@ -880,6 +869,8 @@
     background-color: #cf985d7e;
 }
 
+/*all footers*/
+
 .footer-main {
     position: absolute;
     background-color: #ffecda;
@@ -1086,6 +1077,8 @@
     margin-left: 450px;
     margin-top: 50px;
 }
+
+/*restaurants*/
 
 #rest{
     margin-top: 30px;
@@ -1301,6 +1294,8 @@
     font-size: 18px;
 }
 
+/*adventures page*/
+
 .line-ad{
     position: fixed;
     margin-top: 95px;
@@ -1455,7 +1450,7 @@
 
 .ad13-img{
     margin-top: -640px;
-    margin-left: -80px;
+    margin-left: -50px;
 }
 
 #ad13-img{
@@ -1509,6 +1504,8 @@
     margin-top: 50px;
     margin-left: -150px;
 }
+
+/*booking page*/
 
 .booking{
     width: 110%;
@@ -1668,33 +1665,8 @@
 }
 
 
-/*@media (min-width:320px){
-    
-    .menu-header-div{
-        margin-left: -330px; 
+/*media queries*/
 
-    }
-    
-}
-
-@media screen and (max-width:500%)
-{
-    .menu-header-div{
-        margin-top: -33px;
-        margin-left: 702px; 
-        position: fixed;
-        display:flex; 
-    }
-
-    .container-welcome1{
-        width: 50%;
-    }
-
-    #vid{
-        width: 100%;
-    }
-}
-*/
 
 
 @media (max-width:588px){
@@ -1736,9 +1708,6 @@
          width: 112%; 
          height: 90%;
      }
-    .rest{
-            overflow-x: visible;
-        }
  
      #rest-h1{
          margin-left: 600px;
@@ -2081,24 +2050,6 @@
         }
     }
 
-    @media (max-width:512px) {
-        .adventures{
-            width: 550%;
-        }
-        .footer-home{
-            zoom: 80%;
-            width: 170%;
-        }
-    }
-    @media (max-width:812px) {
-        .adventures{
-            width: 550%;
-            margin-right: -20px;
-        }
-    }
-    
-
-
 
 @media (max-width:1024px){
 
@@ -2121,23 +2072,28 @@
     }
 }
 
-@media (max-width:940px){
-
-    .footer-ad{
-        margin-top: 100%;
-        width: 250%;
-        zoom: 80%;
+@media (max-width:812px) {
+    .adventures{
+        width: 550%;
+        margin-right: -20px;
     }
 }
 
-@media (max-width:712px){
-    .footer-ad{
-        margin-top: 200%;
-        width: 250%;
-        zoom: 80%;
+@media (max-width:512px) {
+    .adventures{
+        width: 550%;
     }
-    
+    .footer-home{
+        zoom: 80%;
+        width: 170%;
+    }
+
+    .rest{
+        overflow-x: visible;
+    }
 }
+
+
 
 @media(width<1000px){
     .citrus{
@@ -2165,12 +2121,41 @@
     }
 
     .bar{
-        zoom: 50%;
+        zoom: 18%;
     }
 
     .container-home{
-        visibility: hidden;
+        zoom: 50%;
+        width: 4%;
+        height: 30%;
     }
+
+    #explore{
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+
+    #para{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #ex-img2{
+        margin-top: 100px;
+        margin-left: 100px;
+        zoom: 120%;
+    }
+
+    #ex-img1{
+        margin-left: 20px;
+    }
+
+    .footer-home{
+        margin-top: 110%;
+    }
+
+    
+    
 }
-
-
