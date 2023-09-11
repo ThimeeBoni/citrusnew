@@ -1671,9 +1671,7 @@
 
 @media (max-width:588px){
 
-    .body{
-        overflow-x: visible;
-    }
+   
     .top-bar{
         height: 55px;
      }
