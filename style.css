@@ -1514,7 +1514,7 @@
 }
 
 .bg-img{
-    width: 100%;
+    width: 140%;
     height: 1000px;
     background-image: url("image3.jpg");
     margin-top: -65px;
@@ -1529,11 +1529,12 @@
 .form1{
     margin-top: -70px;
     margin-left: 70px;
-    width: 83%;
+    width: 59%;
     height: 890px;
     background-color: #dbd0d0c4;
     border-radius: 10px;
 }
+
 
 .topic{
     width: 500px;
@@ -1560,7 +1561,7 @@
 .table-form{
     margin-top: 70px;
     margin-left: 135px;
-    margin-right: 270px;
+    margin-right: 950px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -1607,7 +1608,7 @@
 }
 
 .bg-img1{
-    width: 100%;
+    width: 140%;
     height: 840px;
     background-image: url("adfor1.jpg");
     margin-top: 100px;
@@ -1616,7 +1617,7 @@
 .form2{
     margin-top: -40px;
     margin-left: 85px;
-    width: 83%;
+    width: 59%;
     height: 720px;
     background-color: #dbd0d0c4;
     border-radius: 10px;
@@ -1634,9 +1635,10 @@
 }
 
 .table-form1{
-    width: 80%;
-    margin-top: -780px;
-    margin-left: 175px;
+    margin-top: -800px;
+    margin-left: 135px;
+    margin-right: 950px;
+    width: 85%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
